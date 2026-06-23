@@ -36,3 +36,36 @@ Customer records are stored using file handling, allowing existing customers to 
 ## Author
 
 Areeb Shariq
+## Key Features
+
+- Customer registration and management
+- Unique customer ID generation
+- Vehicle information tracking
+- Existing customer search functionality
+- Service package selection
+- Individual garage service selection
+- Automatic bill calculation
+- Discount system based on service count
+- File-based data persistence
+
+## OOP Concepts Demonstrated
+
+### Abstraction
+Implemented through the abstract Person class.
+
+### Inheritance
+Car class inherits from the Person class.
+
+### Encapsulation
+Private attributes are managed through getters and setters.
+
+### Polymorphism
+The displayInfo() method is overridden in the Car class.
+
+## Future Improvements
+
+- Graphical User Interface (GUI)
+- Database integration using MySQL
+- Customer appointment scheduling
+- Service history tracking
+- Admin dashboard
